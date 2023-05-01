@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --white:antiquewhite;
+    --blue:steelblue;
+    --button:moccasin;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+
+.header{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    background-color: steelblue;
+    color: black;
+}
+
+.header h1{
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 55px;
+}
+
+nav{
+    padding-top: 15px;
+    margin-right: 25px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+nav ul{
+    list-style: none; 
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 25px;
+    padding: 10px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+nav ul :hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+
+.bar{
+    height: 250px;
+    width: 100%;
+    background-image: url("../images/section.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.about{
+    width: 100%;
+    padding: 80px; 
+}
+
+.about img{
+    height: auto;
+    width: 500px;
+}
+
+.about-text{
+    width: 800px;
+}
+
+.about-text h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-text p{
+    font-size: 120%;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+
+.main{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work{
+    width: 100%;
+    padding: 80px;
+}
+
+.title h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+}
+
+.button{
+    background-color: var(--button);
+    height: auto;
+    width: 100%;
+    padding: 20px 35px;
+    margin: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.container a:hover{
+    opacity: 1;
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.05);
+}
+
+.box{
+    height: auto;
+    width: 100%;
+    padding: 20px 35px;
+    margin: 0px;
+    color: black;
+} /*dont quite understand here, uncomment box makes what difference???*/
+
+.box h4{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.box-text{
+    font-size: 120%;
+    line-height: 30px;
+    margin-bottom: 2px; /*same as about-text*/
+}
+
+.contact-me{
+    height: auto;
+    width: 100%;
+    /* display: inline-block; */ /*inline block is not for a whole section, its for an element only*/
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: bisque; *//*save for later*/
+    background-color: var(--blue);
+    color: black;
+}
+
+.contact-me h2{
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;  
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.contact-m{
+    padding-top: 15px;
+    margin-right: 25px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+.contact-m ul{
+    list-style: none; 
+    display: flex;
+}
+
+.contact-m ul li{
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.contact-m ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.contact-m ul :hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 1243px) {
+    .box-text{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    .header{
+        height: 135px;
+        text-align: center;
+    }
+    
+    .header h1{
+        margin: auto;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav ul li{
+        margin: auto;
+    
+    }
+    
+}
+
+@media screen and (max-width: 1118px) {
+    .main{
+        flex-wrap: wrap;
+    }
+    
+    .main img{
+        margin: auto
+    };
+}
+
+@media screen and (max-width: 1008px) {
+    .contact-me{
+        height: 145px;
+        text-align: center;
+    }
+    
+    .contact-me h2{
+        margin: auto;
+    }
+
+    .contact-m{
+        width: 100%;
+    }
+
+    .contact-m ul li{
+        margin: auto;
+    }
+    
+}
