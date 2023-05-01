@@ -28,7 +28,7 @@ function Work() {
         </a>
 
         // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a className="button" href="">
+        <a className="button" href="#">
           <div className="box">
             <h4>Work 3</h4>
             <div className="box-text">
@@ -40,7 +40,7 @@ function Work() {
 
       <div className="container">
         // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a className="button" href="">
+        <a className="button" href="#">
           <div className="box">
             <h4>Big Work</h4>
             <div className="box-text">
