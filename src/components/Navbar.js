@@ -21,8 +21,9 @@ function Navbar() {
             <Link to="/contact">Contact Me</Link>
           </li>
           <li>
-            // eslint-disable-next-line jsx-a11y/anchor-is-valid
-            <a href="#">Resume</a>
+            {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            {/* this link goes to my github for current stage */}
+            <a href="https://github.com/Haozhe-H">Resume</a>
           </li>
         </ul>
       </nav>

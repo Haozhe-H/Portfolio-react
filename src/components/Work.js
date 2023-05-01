@@ -42,8 +42,9 @@ function Work() {
             </div>
           </div>
         </a>
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a className="button" href="#">
+        {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+        {/* this link goes to my github for current stage */}
+        <a className="button" href="https://github.com/Haozhe-H">
           <div className="box">
             <h4>Work 3</h4>
             <div className="box-text">
@@ -63,8 +64,9 @@ function Work() {
       </div>
 
       <div className="container">
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a className="button" href="#">
+        {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+        {/* this link goes to my github for current stage */}
+        <a className="button" href="https://github.com/Haozhe-H">
           <div className="box">
             <h4>Big Work</h4>
             <div className="box-text">
