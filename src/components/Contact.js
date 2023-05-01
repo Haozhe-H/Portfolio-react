@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "../styles/Styles.css";
 
 function Contact() {
@@ -20,7 +20,7 @@ function Contact() {
           <li>
             <a href="https://github.com/Haozhe-H">Github</a>
           </li>
-        </ul> 
+        </ul>
       </section>
     </section>
   );
