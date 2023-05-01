@@ -4,7 +4,7 @@ import "../styles/Styles.css";
 
 function Navbar() {
   return (
-    <header class="header">
+    <header className="header">
       <h1>Haozhe Huang</h1>
       <nav>
         <ul>
