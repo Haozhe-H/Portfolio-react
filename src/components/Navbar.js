@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Styles.css";
+import Download from '../assets/test.pdf'
 
 function Navbar() {
   return (
@@ -22,7 +23,7 @@ function Navbar() {
           </li>
           <li>
             {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="https://github.com/Haozhe-H">Resume</a>
+            <a href={Download}>Resume</a>
           </li>
         </ul>
       </nav>
