@@ -10,18 +10,18 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub style={{ marginRight: "10px" }} />
+          <FaGithub style={{ marginRight: "30px" }} size={26}/>
         </a>
         <a
           href="https://www.linkedin.com/in/haozhe-huang-694254142/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin style={{ marginRight: "10px" }} />
+          <FaLinkedin style={{ marginRight: "30px" }} size={26}/>
         </a>
         {/* will change this twitter contact to something else later */}
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <FaTwitter />
+          <FaTwitter size={26}/>
         </a>
       </div>
     </footer>

@@ -216,16 +216,19 @@ nav ul :hover{
 }
 
 .footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 50px;
+    height: 60px;
     background-color: steelblue;
     color: black;
 }
 
 .footer-div{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1243px) {
