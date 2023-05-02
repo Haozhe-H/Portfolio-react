@@ -125,14 +125,14 @@ nav ul :hover{
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     min-height: 450px;
 }
 
 .button{
     background-color: var(--button);
-    height: auto;
+    height: 450px;
     width: 100%;
     padding: 20px 35px;
     margin: 15px;
@@ -163,7 +163,10 @@ nav ul :hover{
 .box-text{
     font-size: 120%;
     line-height: 30px;
-    margin-bottom: 2px; /*same as about-text*/
+    margin-bottom: 2px; 
+    max-height: 300px;
+    overflow-y: scroll;
+    /*same as about-text*/
 }
 
 .contact-me{
@@ -235,11 +238,15 @@ nav ul :hover{
 .icon{
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 1243px) {
     .box-text{
         display: none;
+    }
+    .button{
+        height: 200px;
     }
 }
 

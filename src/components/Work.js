@@ -26,15 +26,15 @@ function Work() {
                 for the perfect recipe, just delicious meals that you can make
                 quickly and easily.
               </p>
-              <a
-                className="icon"
-                href="https://github.com/teriannephillips/Feastful-Finds"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub style={{ marginRight: "30px" }} size={26} />
-              </a>
             </div>
+            <a
+              className="icon"
+              href="https://github.com/teriannephillips/Feastful-Finds"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub style={{ marginRight: "30px" }} size={26} />
+            </a>
           </div>
         </a>
         <a
@@ -51,15 +51,15 @@ function Work() {
                 delivery prices from different services, such as UberEats and
                 DoorDash, and automatically tells them where the price is right.{" "}
               </p>
-              <a
-                className="icon"
-                href="https://github.com/acst52/EatsMatch"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub style={{ marginRight: "30px" }} size={26} />
-              </a>
             </div>
+            <a
+              className="icon"
+              href="https://github.com/acst52/EatsMatch"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub style={{ marginRight: "30px" }} size={26} />
+            </a>
           </div>
         </a>
         {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -78,15 +78,95 @@ function Work() {
                 consectetur elit at, dapibus dui. Donec lobortis elit non dolor
                 dictum, ac lacinia erat porta. (Will be updating later){" "}
               </p>
-              <a
-                className="icon"
-                href="https://google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub style={{ marginRight: "30px" }} size={26} />
-              </a>
             </div>
+            <a
+              className="icon"
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub style={{ marginRight: "30px" }} size={26} />
+            </a>
+          </div>
+        </a>
+      </div>
+
+      <div className="container">
+      <a className="button hoverable" href="https://github.com/Haozhe-H">
+          <div className="box">
+            <h4>Work 4</h4>
+            <div className="box-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem
+                neque, interdum eget quam nec, laoreet malesuada augue. Sed ex
+                dui, volutpat vitae sapien vitae, laoreet molestie justo. Mauris
+                id elementum dolor. Pellentesque lectus odio, scelerisque a est
+                quis, posuere posuere elit. Vestibulum fermentum purus neque, ut
+                suscipit nunc maximus vel. Sed quis lectus tristique,
+                consectetur elit at, dapibus dui. Donec lobortis elit non dolor
+                dictum, ac lacinia erat porta. (Will be updating later){" "}
+              </p>
+            </div>
+            <a
+              className="icon"
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub style={{ marginRight: "30px" }} size={26} />
+            </a>
+          </div>
+        </a>
+        <a className="button hoverable" href="https://github.com/Haozhe-H">
+          <div className="box">
+            <h4>Work 5</h4>
+            <div className="box-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem
+                neque, interdum eget quam nec, laoreet malesuada augue. Sed ex
+                dui, volutpat vitae sapien vitae, laoreet molestie justo. Mauris
+                id elementum dolor. Pellentesque lectus odio, scelerisque a est
+                quis, posuere posuere elit. Vestibulum fermentum purus neque, ut
+                suscipit nunc maximus vel. Sed quis lectus tristique,
+                consectetur elit at, dapibus dui. Donec lobortis elit non dolor
+                dictum, ac lacinia erat porta. (Will be updating later){" "}
+              </p>
+            </div>
+            <a
+              className="icon"
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub style={{ marginRight: "30px" }} size={26} />
+            </a>
+          </div>
+        </a>
+        {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+        {/* this link goes to my github for current stage */}
+        <a className="button hoverable" href="https://github.com/Haozhe-H">
+          <div className="box">
+            <h4>Work 6</h4>
+            <div className="box-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem
+                neque, interdum eget quam nec, laoreet malesuada augue. Sed ex
+                dui, volutpat vitae sapien vitae, laoreet molestie justo. Mauris
+                id elementum dolor. Pellentesque lectus odio, scelerisque a est
+                quis, posuere posuere elit. Vestibulum fermentum purus neque, ut
+                suscipit nunc maximus vel. Sed quis lectus tristique,
+                consectetur elit at, dapibus dui. Donec lobortis elit non dolor
+                dictum, ac lacinia erat porta. (Will be updating later){" "}
+              </p>
+            </div>
+            <a
+              className="icon"
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub style={{ marginRight: "30px" }} size={26} />
+            </a>
           </div>
         </a>
       </div>
