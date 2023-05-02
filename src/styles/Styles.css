@@ -112,6 +112,7 @@ nav ul :hover{
 .work{
     width: 100%;
     padding: 80px;
+    overflow: hidden;
 }
 
 .title h2{
@@ -140,7 +141,7 @@ nav ul :hover{
     opacity: 0.7;
 }
 
-.container a:hover{
+.container a.hoverable:hover{
     opacity: 1;
     box-shadow: 5px 5px 5px black;
     transform: scale(1.05);
@@ -229,6 +230,11 @@ nav ul :hover{
 .footer-div{
     display: flex;
     justify-content: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 1243px) {
