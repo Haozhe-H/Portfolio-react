@@ -8,14 +8,14 @@ function Navbar() {
       <h1>Haozhe Huang</h1>
       <nav>
         <ul>
-          <li>
+          {/* <li>
             <Link to="/">Home</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/about">About Me</Link>
           </li>
           <li>
-            <Link to="/work">Work</Link>
+            <Link to="/works">Work</Link>
           </li>
           <li>
             <Link to="/contact">Contact Me</Link>
