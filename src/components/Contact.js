@@ -1,15 +1,59 @@
 import React from "react";
 import "../styles/Styles.css";
-import { FaPhone, FaEnvelope, FaGithub,} from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaGithub } from "react-icons/fa";
 
 function Contact() {
+
+  var modal = document.getElementById("myModal");
+
+  var span = document.getElementsByClassName("close")[0];
+
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
+
+  // const showModal = () => {
+  //   modal.style.display = 'block'
+  // };
+
+  // const validateForm = () => {
+  //   const nameInput = document.getElementById("name");
+  //   const emailInput = document.getElementById("email");
+
+  //   if (nameInput.value.trim() === "" || emailInput.value.trim() === "") {
+  //     showModal();
+  //     return false;
+  //   }
+
+  //   return true;
+  // };
+
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+
+  //   if (validateForm()) {
+  //     const form = document.querySelector("form");
+  //     form.submit();
+  //   }
+  // };
+
   return (
     <div className="container">
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Invalid input!</p>
+        </div>
+      </div>
 
       <div className="card-body">
-        <form action="mailto:haozhehuang@outlook.com" method="post">
+        <form
+          // onSubmit={handleSubmit}
+          action="mailto:haozhehuang@outlook.com"
+          method="post"
+        >
           <div className="form-group">
-            <label htmlFor="exampleFormControlInput1">Name</label>
+            <label htmlFor="name">Name</label>
             <input
               type="text"
               name="name"
@@ -19,7 +63,7 @@ function Contact() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="exampleFormControlInput2">Email</label>
+            <label htmlFor="email">Email</label>
             <input
               type="email"
               name="_replyto"
@@ -39,12 +83,9 @@ function Contact() {
               rows="3"
             ></textarea>
           </div>
-          <button type="submit">
-            Submit
-          </button>
+          <button type="submit">Submit</button>
         </form>
       </div>
-
 
       <div className="card">
         <div className="card-header">Contact Info</div>
@@ -66,7 +107,5 @@ function Contact() {
     </div>
   );
 }
-
-
 
 export default Contact;
