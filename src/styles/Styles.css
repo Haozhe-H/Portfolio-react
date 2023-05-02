@@ -215,6 +215,19 @@ nav ul :hover{
     transform: scale(1.05);
 }
 
+.footer{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+    background-color: steelblue;
+    color: black;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
 @media screen and (max-width: 1243px) {
     .box-text{
         display: none;
