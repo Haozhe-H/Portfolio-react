@@ -22,7 +22,6 @@ function Navbar() {
           </li>
           <li>
             {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            {/* this link goes to my github for current stage */}
             <a href="https://github.com/Haozhe-H">Resume</a>
           </li>
         </ul>

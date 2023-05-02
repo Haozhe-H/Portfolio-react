@@ -1,14 +1,12 @@
 import React from "react";
 import "../styles/Styles.css";
+import Avatar from "../assets/avatar.png";
 
 function About() {
   return (
     <section className="about" id="about-me">
       <div className="main">
-        <img
-          src={process.env.PUBLIC_URL + "./avatar.png"}
-          alt="personal avatar"
-        />
+        <img src={Avatar} alt="personal avatar" />
         <div className="about-text">
           <h2>About Me</h2>
           <p>
