@@ -1,302 +1,417 @@
-*{
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-:root{
-    --white:antiquewhite;
-    --blue:steelblue;
-    --button:moccasin;
+:root {
+  --white: antiquewhite;
+  --blue: steelblue;
+  --button: moccasin;
 }
 
-
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
 }
 
-.header{
-    padding: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 100px;
-    background-color: steelblue;
-    color: black;
+.header {
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100px;
+  background-color: steelblue;
+  color: black;
 }
 
-.header h1{
-    display: inline-block;
-    margin-left: 100px;
-    font-size: 55px;
+.header h1 {
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 55px;
 }
 
-nav{
-    padding-top: 15px;
-    margin-right: 25px;
-    float: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 23px;
+nav {
+  padding-top: 15px;
+  margin-right: 25px;
+  float: right;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 23px;
 }
 
-nav ul{
-    list-style: none; 
-    display: flex;
+nav ul {
+  list-style: none;
+  display: flex;
 }
 
-nav ul li{
-    margin-left: 25px;
-    padding: 10px;
+nav ul li {
+  margin-left: 25px;
+  padding: 10px;
 }
 
-nav ul li a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    opacity: 0.7;
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 0.7;
 }
 
-nav ul :hover{
-    opacity: 1;
-    transform: scale(1.05);
+nav ul :hover {
+  opacity: 1;
+  transform: scale(1.05);
 }
 
-
-.bar{
-    height: 250px;
-    width: 100%;
-    /* background-image: url("../"); */
-    /* img in public folder */
-    background-size: cover;
-    background-position: center;
+.bar {
+  height: 250px;
+  width: 100%;
+  /* background-image: url("../"); */
+  /* img in public folder */
+  background-size: cover;
+  background-position: center;
 }
 
-
-.about{
-    width: 100%;
-    padding: 80px; 
+.about {
+  width: 100%;
+  padding: 80px;
 }
 
-.about img{
-    height: auto;
-    width: 500px;
+.about img {
+  height: auto;
+  width: 500px;
 }
 
-.about-text{
-    width: 800px;
+.about-text {
+  width: 800px;
 }
 
-.about-text h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 15px;
+.about-text h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-.about-text p{
-    font-size: 120%;
-    line-height: 35px;
-    margin-bottom: 25px;
+.about-text p {
+  font-size: 120%;
+  line-height: 35px;
+  margin-bottom: 25px;
 }
 
-.main{
-    display: flex;
-    width: 95%;
-    margin: auto;
-    align-items: center;
-    justify-content: space-around;
+.main {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.work{
-    width: 100%;
-    padding: 80px;
-    overflow: hidden;
+.work {
+  width: 100%;
+  padding: 80px;
+  overflow: hidden;
 }
 
-.title h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    text-align: center;
+.title h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 450px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
 }
 
-.button{
-    background-color: var(--button);
-    height: 450px;
-    width: 100%;
-    padding: 20px 35px;
-    margin: 15px;
-    border-radius: 25px;
-    text-decoration: none;
-    opacity: 0.7;
+.button {
+  background-color: var(--button);
+  height: 450px;
+  width: 100%;
+  padding: 20px 35px;
+  margin: 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  opacity: 0.7;
 }
 
-.container a.hoverable:hover{
-    opacity: 1;
-    box-shadow: 5px 5px 5px black;
-    transform: scale(1.05);
+.container a.hoverable:hover {
+  opacity: 1;
+  box-shadow: 5px 5px 5px black;
+  transform: scale(1.05);
 }
 
-.box{
-    height: auto;
-    width: 100%;
-    padding: 20px 35px;
-    margin: 0px;
-    color: black;
+.box {
+  height: auto;
+  width: 100%;
+  padding: 20px 35px;
+  margin: 0px;
+  color: black;
 } /*dont quite understand here, uncomment box makes what difference???*/
 
-.box h4{
-    font-size: 35px;
-    margin-bottom: 15px;
+.box h4 {
+  font-size: 35px;
+  margin-bottom: 15px;
 }
 
-.box-text{
-    font-size: 120%;
-    line-height: 30px;
-    margin-bottom: 2px; 
-    max-height: 300px;
-    overflow-y: scroll;
-    /*same as about-text*/
+.box-text {
+  font-size: 120%;
+  line-height: 30px;
+  margin-bottom: 2px;
+  max-height: 300px;
+  overflow-y: scroll;
+  /*same as about-text*/
 }
 
-.contact-me{
-    height: auto;
-    width: 100%;
-    /* display: inline-block; */ /*inline block is not for a whole section, its for an element only*/
-    padding: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    /* background-color: bisque; *//*save for later*/
-    background-color: var(--blue);
-    color: black;
+.contact-me {
+  height: auto;
+  width: 100%;
+  /* display: inline-block; */ /*inline block is not for a whole section, its for an element only*/
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* background-color: bisque; */ /*save for later*/
+  /* background-color: var(--blue); */
+  color: black;
 }
 
-.contact-me h2{
-    display: inline-block;
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 15px;  
-    margin-left: 100px;
-    justify-content: center;
+.contact-me h2 {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 100px;
+  justify-content: center;
 }
 
-.contact-m{
-    padding-top: 15px;
-    margin-right: 25px;
-    float: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 23px;
+.contact-m {
+  padding-top: 15px;
+  margin-right: 25px;
+  float: right;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 23px;
 }
 
-.contact-m ul{
-    list-style: none; 
-    display: flex;
+.contact-m ul {
+  list-style: none;
+  display: flex;
 }
 
-.contact-m ul li{
-    margin-left: 25px;
-    padding: 10px;
+.contact-m ul li {
+  margin-left: 25px;
+  padding: 10px;
 }
 
-.contact-m ul li a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    opacity: 0.7;
+.contact-m ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 0.7;
 }
 
-.contact-m ul :hover{
-    opacity: 1;
-    transform: scale(1.05);
+.contact-m ul :hover {
+  opacity: 1;
+  transform: scale(1.05);
 }
 
-.footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 60px;
-    background-color: steelblue;
-    color: black;
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 60px;
+  background-color: steelblue;
+  color: black;
 }
 
-.footer-div{
-    display: flex;
-    justify-content: center;
+.footer-div {
+  display: flex;
+  justify-content: center;
 }
 
-.icon{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 5px;
+.icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+
+.card-body {
+  width: 50%;
+  margin-right: 10%;
+  margin-left: 15%;
+}
+
+.contact-info {
+  margin-right: 15px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4d90fe;
+  box-shadow: 0 0 0 0.2rem rgba(77, 144, 254, 0.25);
+}
+
+.form-group input[type="submit"] {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.form-group input[type="submit"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.form-group .invalid-feedback {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  color: #dc3545;
+}
+
+.card {
+  margin-top: 3rem;
+  background-color: var(--button);
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-size: 1.25rem;
+  font-weight: 700;
+  background-color: var(--button);
+  border-bottom: none;
+  margin: 15px;
+}
+
+.list-group-item {
+  background-color: var(--white);
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+  color: #007bff;
 }
 
 @media screen and (max-width: 1243px) {
-    .box-text{
-        display: none;
-    }
-    .button{
-        height: 200px;
-    }
+  .box-text {
+    display: none;
+  }
+  .button {
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 1205px) {
-    .header{
-        height: 135px;
-        text-align: center;
-    }
-    
-    .header h1{
-        margin: auto;
-    }
+  .header {
+    height: 135px;
+    text-align: center;
+  }
 
-    nav{
-        width: 100%;
-    }
+  .header h1 {
+    margin: auto;
+  }
 
-    nav ul li{
-        margin: auto;
-    
-    }
-    
+  nav {
+    width: 100%;
+  }
+
+  nav ul li {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 1118px) {
-    .main{
-        flex-wrap: wrap;
-    }
-    
-    .main img{
-        margin: auto
-    };
+  .main {
+    flex-wrap: wrap;
+  }
+
+  .main img {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 1008px) {
-    .contact-me{
-        height: 145px;
-        text-align: center;
-    }
-    
-    .contact-me h2{
-        margin: auto;
-    }
+  .contact-me {
+    height: 145px;
+    text-align: center;
+  }
 
-    .contact-m{
-        width: 100%;
-    }
+  .contact-me h2 {
+    margin: auto;
+  }
 
-    .contact-m ul li{
-        margin: auto;
-    }
-    
+  .contact-m {
+    width: 100%;
+  }
+
+  .contact-m ul li {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .card-body {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
 }
