@@ -8,9 +8,9 @@ function Contact() {
 
   var span = document.getElementsByClassName("close")[0];
 
-  span.onclick = function () {
-    modal.style.display = "none";
-  };
+  // span.onclick = function () {
+  //   modal.style.display = "none";
+  // };
 
   // const showModal = () => {
   //   modal.style.display = 'block'
