@@ -8,27 +8,11 @@
 
 ### \*[Installation](#installation)
 
-### \*[Usage](#usage)
-
-### \*[Credits](#credits)
-
 ### \*[License](#license)
 
 ### \*[Features](#features)
 
-### \*[Contributors](#contributors)
-
-### \*[Tests](#tests)
-
 ## Installation:
-
-### To install this application, first run `npm i` to install all the required packages, then create the `.env` file for MySQL, source the schema and seeds, then run `npm run start` to run this application.
-
-## Usage:
-
-### After installation, run `npm run start` to start the application, then goes to insomnia, enter the port, then user can check, add, update and delete categories, tags and products. For more information please visit this walk-throught video: https://watch.screencastify.com/v/HfRxYWeOcTzMs7dI1f68
-
-## Credits:
 
 ### N/A
 
@@ -38,16 +22,4 @@
 
 ## Features:
 
-### This application allow user to view, add, update and delete products, tags and categories base on their needs, and when changes are made, Mysql database will be updated so users can always track their changes.
-
-## Contributors:
-
-### The starter code is from: https://github.com/coding-boot-camp/fantastic-umbrella
-
-## Tests:
-
-### N/A
-
-## Questions:
-
-### Github: https://github.com/Haozhe-H/Ecommerce-Back-End
+### To use this personal portfolio, you can review the navigation bar on the top right, the image is shown below: ![nav bar](src/assets/navbar.JPG) this will direct the page to correspoding endpoints. The page contains 4 main parts, the About Me section is shown on the homepage and `/about`. The work is shown on `/works`, only 2 are updated at this moment, more work can be added on in the future. The work cards can be clicked and will direct to the project page. Click the github icon on the bottom right will direct the page to the project corresponding github page. And the Contact Me is showing on `/contact`, where shows the contact information, when click on the submit button for message, an email will be sent.
