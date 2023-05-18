@@ -64,24 +64,27 @@ function Work() {
         </a>
         {/* // eslint-disable-next-line jsx-a11y/anchor-is-valid */}
         {/* this link goes to my github for current stage */}
-        <a className="button hoverable" href="https://github.com/Haozhe-H">
+        <a
+          className="button hoverable"
+          href="https://timekeepers.herokuapp.com/"
+        >
           <div className="box">
-            <h4>Work 3</h4>
+            <h4>timekeepers</h4>
             <div className="box-text">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem
-                neque, interdum eget quam nec, laoreet malesuada augue. Sed ex
-                dui, volutpat vitae sapien vitae, laoreet molestie justo. Mauris
-                id elementum dolor. Pellentesque lectus odio, scelerisque a est
-                quis, posuere posuere elit. Vestibulum fermentum purus neque, ut
-                suscipit nunc maximus vel. Sed quis lectus tristique,
-                consectetur elit at, dapibus dui. Donec lobortis elit non dolor
-                dictum, ac lacinia erat porta. (Will be updating later){" "}
+                Timekeepers is your go-to destination for exceptional timepieces
+                that embody style and quality. Explore our curated collection
+                featuring a wide range of watches, including sport, smart,
+                fashion, classic, and more. Whether you're seeking a bold
+                statement piece or a sophisticated everyday companion, we have
+                the perfect timepiece for every style and occasion. Experience
+                the joy of owning a timeless accessory that elevates your look
+                and makes a lasting impression.{" "}
               </p>
             </div>
             <a
               className="icon"
-              href="https://google.com"
+              href="https://github.com/Haozhe-H/Timekeeper/tree/main"
               target="_blank"
               rel="noopener noreferrer"
             >
